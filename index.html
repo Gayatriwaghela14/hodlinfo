@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <!-- Boostrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="navbar bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://hodlinfo.com/static/media/HODLINFO.8f78fc06.png" alt="hodlinfo" height="24">
+                </a>
+
+                <!-- button group -->
+                <div class="d-flex">
+                    <!-- button 1 -->
+                    <div class="dropdown me-3">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            INR
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">INR</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- button 2 -->
+                    <div class="dropdown me-3">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            BTC
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">BTC</a></li>
+                            <li><a class="dropdown-item" href="#">ETH</a></li>
+                            <li><a class="dropdown-item" href="#">USDT</a></li>
+                            <li><a class="dropdown-item" href="#">XRP</a></li>
+                            <li><a class="dropdown-item" href="#">TRX</a></li>
+                            <li><a class="dropdown-item" href="#">DASH</a></li>
+                            <li><a class="dropdown-item" href="#">ZEC</a></li>
+                            <li><a class="dropdown-item" href="#">XEM</a></li>
+                            <li><a class="dropdown-item" href="#">IOST</a></li>
+                            <li><a class="dropdown-item" href="#">WIN</a></li>
+                            <li><a class="dropdown-item" href="#">BTT</a></li>
+                            <li><a class="dropdown-item" href="#">WRX</a></li>  
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!-- button group -->
+                <div class="d-flex align-items-center">
+                    <!-- button 1 -->
+                    <button class="btn btn-primary me-3" type="button" disabled>
+                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                        <span class="visually-hidden">Loading...</span>
+                    </button>
+
+
+                    <!-- button 2 -->
+                    <button type="button" class="btn text-white btn-info me-3">
+                        <span class="btn-label text-white me-2"><i class="fa fa-send"></i></span>
+                        Connect Telegram
+                    </button>
+
+
+                    <!-- button 3 -->
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                    </div>
+                </div>
+            </div>
+        </nav> <br> <br>
+         
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Last</th>
+                <th scope="col">Buy/Sell Price</th>
+                <th scope="col">volume</th>
+                <th scope="col">base_unit</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr bgcolor="#d3d3d3">
+                <th scope="row" >1</th>
+                <td>BTC/INR</td>
+                <td>₹2,587,560</td>
+                <td>₹2,587,560 / ₹2,590,518</td>
+                <td>286.1729</td>
+                <td>btc</td>
+              </tr>
+              <tr bgcolor="#d3d3d3">
+                <th scope="row">2</th> 
+                <td>XRP/INR</td>
+                <td>₹2,599,290</td>
+                <td>₹2,597,271 / ₹2,603,197</td>
+                <td>865773.0</td>
+                <td>xrp</td>
+              </tr>
+              <tr bgcolor="#d3d3d3">
+                <th scope="row">3</th> 
+                <td>XRP/INR</td>
+                <td>₹1,688,505 </td>
+                <td>₹1,689,684 / ₹1,694,980 </td>
+                <td>137977.6</td>
+                <td>xrp</td>
+              </tr>
+              <tr bgcolor="#d3d3d3">
+                <th scope="row">4</th> 
+                <td>ETH/INR</td>
+                <td>₹27.1541</td>
+                <td>₹27.1541 / ₹27.6454</td>
+                <td>85.8747</td>
+                <td>eth</td>
+              </tr>
+              <tr bgcolor="#d3d3d3">
+                <th scope="row">5</th> 
+                <td>TRX/INR</td>
+                <td>₹5.1698</td>
+                <td>₹5.118 / ₹5.1698</td>
+                <td>2165050.0</td>
+                <td>trx</td>
+              </tr> <br>
+              <tr bgcolor="#d3d3d3">
+                <th scope="row">6</th> 
+                <td>EOS/INR</td>
+                <td>₹120.3</td>
+                <td>₹118.0 / ₹120.6</td>
+                <td>2042.08</td>
+                <td>eos</td>
+              </tr>
+              <tr bgcolor="#d3d3d3">
+                <th scope="row">7</th> 
+                <td>ZIL/INR</td>
+                <td>₹3.02</td>
+                <td>₹2.94 / ₹3.0</td>
+                <td>217551.0</td>
+                <td>zil</td>
+              </tr>
+              <tr bgcolor="#d3d3d3">
+                <th scope="row">8</th> 
+                <td>BAT/INR</td>
+                <td>₹28.299</td>
+                <td>₹27.201 / ₹28.299</td>
+                <td>1934.88</td>
+                <td>bat</td>
+              </tr>
+              <tr bgcolor="#d3d3d3">
+                <th scope="row">9</th> 
+                <td>ZRX/INR</td>
+                <td>₹24.51</td>
+                <td>₹24.51 / ₹25.5 </td>
+                <td>1731.59</td>
+                <td>zrx</td>
+              </tr> 
+              <tr bgcolor="#d3d3d3">
+                <th scope="row">10</th> 
+                <td>REQ/INR</td>
+                <td>₹9.7</td>
+                <td>₹9.6 / ₹10.2377</td>
+                <td>11918.0</td>
+                <td>req</td>
+              </tr>
+            
+            </tbody>
+          </table>
+
+
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "assignment-node",
+  "version": "1.0.0",
+  "description": "Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gayatriwaghela14/hodlinfo.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Gayatri Waghela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gayatriwaghela14/hodlinfo/issues"
+  },
+  "homepage": "https://github.com/Gayatriwaghela14/hodlinfo#readme",
+   "type":"module",
+
+  "dependencies": {
+    "mongoose": "^6.6.1",
+    "node-fetch": "^3.2.10"
+  }
+}
